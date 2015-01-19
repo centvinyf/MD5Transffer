@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CF5CB6D1A6D0038003D8B16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5CB6C1A6D0038003D8B16 /* main.cpp */; };
+		2CF5CB761A6D00DC003D8B16 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5CB731A6D00DC003D8B16 /* md5.cpp */; };
+		2CF5CB771A6D00DC003D8B16 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5CB751A6D00DC003D8B16 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		2CF5CB691A6D0038003D8B16 /* MD5Transffer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MD5Transffer; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CF5CB6C1A6D0038003D8B16 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2CF5CB731A6D00DC003D8B16 /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		2CF5CB741A6D00DC003D8B16 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		2CF5CB751A6D00DC003D8B16 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		2CF5CB6B1A6D0038003D8B16 /* MD5Transffer */ = {
 			isa = PBXGroup;
 			children = (
-				2CF5CB6C1A6D0038003D8B16 /* main.cpp */,
+				2CF5CB731A6D00DC003D8B16 /* md5.cpp */,
+				2CF5CB741A6D00DC003D8B16 /* md5.h */,
+				2CF5CB751A6D00DC003D8B16 /* test.cpp */,
 			);
 			path = MD5Transffer;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF5CB6D1A6D0038003D8B16 /* main.cpp in Sources */,
+				2CF5CB761A6D00DC003D8B16 /* md5.cpp in Sources */,
+				2CF5CB771A6D00DC003D8B16 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
